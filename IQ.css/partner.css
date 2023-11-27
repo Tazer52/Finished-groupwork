@@ -1,0 +1,451 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Partner{
+    height:120vh;
+    width:auto;
+    background-image: url(/images/istockphoto-1371966433-170667a.jpg);
+    background-size: cover;
+}
+.navigate{
+    height:12%;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+   
+}
+.logo{
+    background-image: url(/images/new\ 2.png);
+    background-size: cover;
+    height:100px;
+    width:500px;
+    margin-top: 15px;
+   
+}
+
+.home h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.home a{
+    text-decoration: none;
+}
+.home h2:hover{
+    color: orange;
+    display:block;
+    transition: .4s;
+}
+.details{
+    display: flex;
+    /* background-color:white; */
+    width:900px;
+}
+
+.About h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 150px;
+   
+}
+.About i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.About h2:hover{
+    color: orange;
+    display:block;
+    transition: .4s;
+}
+
+.About:hover .htl{
+    display: block;
+} 
+.htl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none; 
+    z-index: 3;
+    position: relative;
+    margin-left: 100px;
+  
+}
+.htl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+}
+.htl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.htl a:hover{
+    color: orange;
+    transition: .2s;
+}
+
+.Get{
+    margin-left: 1020px;
+    position: absolute;
+}
+.Get h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Get i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.Get h2:hover{
+    color: orange;
+    transition: .4s;
+}
+.Get:hover .gtl{
+    display: block;
+} 
+.gtl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+    z-index: 33;
+    position: relative;
+  
+}
+.gtl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+}
+.gtl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gtl a:hover{
+    color: orange;
+    transition: .2s;
+}
+.reviews{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+}
+.reviews a{
+    text-decoration: none; 
+}
+.reviews h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 25px;
+}
+.reviews h2:hover{
+    color: orange;
+    transition: .4s;
+}
+
+
+.programs{
+    margin-left: 1650px;
+    position: absolute;
+}
+.programs h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.programs i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.programs h2:hover{
+    color: orange;
+    transition: .4s;
+}
+.programs:hover .prg{
+    display: block;
+} 
+.prg{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+  
+}
+.prg a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    position: relative;
+    z-index: 33;
+}
+.prg li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.prg a:hover{
+    color: orange;
+    transition: .2s;
+}
+.PTR{
+    height:920px;
+    width:80%;
+    margin-left: 200px;
+    margin-top: 60px;
+    background-image: url(/images/geo2.jpg);
+    background-size: cover;
+    display: flex;
+    
+}
+.part{
+    height:800px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #6610f2;
+    margin-top: 70px;
+    margin-left: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.part h1{
+    font-size: 80px;
+    color: orangered;
+   
+    margin-top: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.part h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #11111f;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.part p{
+    text-align: center;
+    margin-top: 30px;
+    color: wheat;
+    font-size: 23px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.partnerimg{
+    background-image: url(/images/african-business-male-people-shaking-hands_1303-18516.jpg);
+    background-size: cover;
+    background-position: center;
+    height:600px;
+    width:600px;
+    border-radius: 50%;
+    z-index: 2;  
+    position: relative;
+}
+.op{
+    height:600px;
+    width:600px;
+    border-radius: 50%;
+    
+    display:none;
+    position: absolute;
+}
+.partnerimg:hover .op{
+    opacity:.8;
+    border: orange solid ;
+    transition:1.8s;
+    display:block;
+}
+.mhf{
+    margin-top: 150px;
+    margin-left: 90px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    color: #11111f;
+}
+.mhf span{
+    color: #11111f;
+}
+.Footer{
+    height:40vh;
+    width:auto;
+    background-color:black;
+    border-style:double;
+    display: flex;
+}
+.end{
+    width:640px;
+    margin-top:20px;
+    border: solid 1px ;
+    border-color: crimson ;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+}
+.end h2{
+    color:white;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.end i{
+    font-size: 30px;
+    color: grey;
+    margin-left: 60px;
+    margin-top:20px ;
+}
+.end i:hover{
+    color:orange
+}
+.more{
+    display: flex;
+}
+.more i{
+    font-size: 30px;
+    color: grey;
+    margin-left: 60px;
+    margin-top:40px ;
+}
+.more i:hover{
+    color:orange
+}
+.more h2{
+    font-size: 30px;
+    color:crimson;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.mambo h2{
+    color:white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+.mambo p{
+    margin-left: 50px;
+   
+}
+.ct{
+    border: solid 1px ;
+    border-color: crimson ;
+    margin-left: 80px;
+    margin-top: 20px;
+    height:350px;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+}
+.ct h2{
+    color:white;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+.social1{
+    margin-left: 1400px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social1 i{
+    font-size: 45px;
+    color:white;
+}
+.social1 i:hover{
+    color: crimson;
+    transition: .4s;
+    margin-top: 10px;
+}
+.social2{
+    margin-left: 1500px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social2 i{
+    font-size: 45px;
+    color:white;
+}
+.social2 i:hover{
+    color: crimson;
+    transition: .4s;
+    margin-top: 10px;
+}
+.social3{
+    margin-left: 1600px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social3 i{
+    font-size: 45px;
+    color:white;
+}
+.social3 i:hover{
+    color: crimson;
+    transition: .4s;
+    margin-top: 10px;
+}
+.social4{
+    margin-left: 1700px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social4 i{
+    font-size: 45px;
+    color:white;
+}
+.social4 i:hover{
+    color: crimson;
+    transition: .4s;
+    margin-top: 10px;
+}
+.social5{
+    margin-left: 1800px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social5 i{
+    font-size: 45px;
+    color:white;
+}
+.social5 i:hover{
+    color: crimson;
+    transition: .4s;
+    margin-top: 10px;
+}

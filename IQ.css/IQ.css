@@ -1,0 +1,984 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.Main{
+    height:100vh;
+    /* width:100vw; */
+    
+}
+
+.navigate{
+    height:12%;
+    width:100%;
+    background-color: #11111f;
+    display: flex;
+   
+}
+
+.logo{
+    /* background-image: url(/images/new\ 2.png); */
+    background-size: cover;
+    height:100px;
+    width:500px;
+    margin-top: 15px; 
+}
+
+.home h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.home a{
+    text-decoration: none;
+}
+.home h2:hover{
+    color: orange;
+    display:block;
+   
+}
+.details{
+    display: flex;
+    /* background-color:white; */
+    width:900px;
+}
+
+.About h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    transition: .5s ease-in-out;
+   
+}
+.About i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.About h2:hover{
+    color: orange;
+    display:block;
+ 
+}
+
+.About:hover .htl{
+    display: block;
+} 
+.htl{
+    background-color: white;
+    height:250px;
+    width:250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* border-style:  5px solid orange; */
+    display:none; 
+  
+}
+.htl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: #11111f;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.htl li{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.htl a:hover{
+    color: orange;
+   
+}
+
+.Get{
+    margin-left: 800px;
+    position: absolute;
+}
+.Get h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 160px;
+    transition: .5s ease-in-out;
+}
+.Get i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.Get h2:hover{
+    color: orange;
+
+}
+.Get:hover .gtl{
+    display: block;
+} 
+.gtl{
+    background-color: white;
+    height:250px;
+    width:250px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+  
+}
+.gtl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: #11111f;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.gtl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gtl a:hover{
+    color: orange;
+    
+}
+.reviews{
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 50px;
+}
+.reviews a{
+    text-decoration: none; 
+}
+.reviews h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.reviews h2:hover{
+    color: orange;
+   
+}
+
+
+.programs{
+    margin-left: 1470px;
+    position: absolute;
+}
+.programs h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    transition: .5s ease-in-out;
+}
+.programs i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.programs h2:hover{
+    color: orange;
+
+}
+.programs:hover .prg{
+    display: block;
+} 
+.prg{
+    background-color: white;
+    height:250px;
+    width:250px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+  
+}
+.prg a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: #11111f;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.prg li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.prg a:hover{
+    color: orange;
+
+}
+
+.contact{
+    position: absolute;
+    margin-left: 1780px;
+    border-style:none;
+    width: 160px;
+    height:90px;
+    /* padding-right: 60px; */
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+  
+}
+.contact a{
+    text-decoration: none;
+}
+.contact h2{
+    /* margin-top: 10px; */
+    color:white;
+    font-family: 'Golos Text', sans-serif;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.contact:hover{
+    background-color: crimson;
+    /* border: solid crimson ; */
+    border-radius: 10px;
+    height: 90px;
+    width: 160px;
+}
+
+.Picture{
+    height:88%;
+    width:auto;
+    /* background-image: url(/images/santi-vedri-O5EMzfdxedg-unsplash.jpg); */
+    background-size: cover;
+   
+    background-attachment: fixed;
+    display: flex;
+
+}
+
+.Text{
+    margin-left: 520px;
+    margin-top: 5%;
+}
+.Text h1{
+    font-size: 150px;
+    color: orange;
+    font-family: 'Fredericka the Great', cursive;
+}
+.Text i{
+    font-size: 130px;
+    color: orange;
+    
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.MoreInfo{
+    height:110vh;
+    width:auto;
+    background-color: #11111f;
+    display: flex;
+}
+
+.middle{
+    height:100%;
+    width:40%;
+    /* background-color: blueviolet; */
+}
+.ic p{
+    font-size: 40px;
+    color:orange;
+    margin-left: 50px;
+    margin-top: 240px;
+    transition: .5s ease-in-out;
+
+}
+.ic p:hover{
+    color:crimson;
+}
+.ic h3{
+    font-size: 40px;
+    color:orange;
+    margin-left: 50px;
+    margin-top: 90px;
+    transition: .5s ease-in-out;
+}
+.ic h3:hover{
+    color:crimson;
+
+}
+.middle h1{
+    font-size: 80px;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.middle p{
+    font-size: 25px;
+    color:white;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.middle span{
+    color:crimson;
+}
+.vbs{
+    /* background-image: url(/images/EdTechAnnouncement_660x680_acf_cropped-e1585865750367.png); */
+    background-size: cover;
+    height:500px;
+    width:700px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+    border-style: solid;
+    border-color: crimson;
+    position: relative;
+   
+}
+.opaciti{
+    background-color: #11111f;
+    height:500px;
+    width:700px;
+  
+    border-radius: 10px 10px 0px 0px;
+    opacity: .6;
+    position: absolute;
+    display: none;
+}
+.vbs:hover .opaciti{
+    display: block;
+    transition: .01s;
+}
+.creative{
+    margin-top: 150px;
+    margin-left: 180px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: orange;
+
+}
+.pictures{
+    display: flex;
+}
+.picture2{
+    background-image: url(/images/Arduino-Uno-Projects.jpg);
+    background-size: cover;
+    border-radius: 9px;
+    height:500px;
+    width:980px;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.picture2:hover .opaciti2{
+    opacity:0.7;
+    border-style: solid;
+    display: block;
+    border-color: blueviolet;
+  
+}
+.opaciti2{
+    background-color: #11111f;
+    height:500px;
+    width:980px;
+    border-radius: 9px;
+    /* border-radius: 10px 10px 0px 0px; */
+    opacity: .6;
+    position: absolute;
+    display: none;
+}
+.arduino{
+    margin-top: 150px;
+    margin-left: 60px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+.arduino h2{
+    margin-left: 170px;
+}
+.arduino span{
+    color: orangered;
+}
+
+
+.picture3{
+    background-image: url(/images/projets-ingenieurs-esilv-720x421.webp);
+    background-size: cover;
+    border-radius: 9px;
+    height:500px;
+    width:970px;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
+.opaciti1{
+    background-color: #11111f;
+    height:500px;
+    width:970px;
+    border-radius: 9px;
+    opacity: .6;
+    position: absolute;
+    display: none;
+    transition: .8s ease-in-out;
+}
+
+.picture3:hover .opaciti1{
+    opacity:0.7;
+    border-style: solid;
+    border-color: dodgerblue;
+    display: block;  
+}
+
+.engineer{
+    margin-top: 150px;
+    margin-left: 180px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+
+.engineer span{
+    color:deepskyblue;
+}
+
+
+.Almost{
+    height:100vh;
+    width:auto;
+    background-image: url(/images/abstract-geometrical-shapes-connection-digital-communication-and-technology-network-background-vector.jpg);
+    background-size: cover;
+}
+.MoreI{
+    display: flex;
+   
+}
+.int1{
+    background-color: #11111f;
+    height:700px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 280px;
+    margin-left: 120px;
+    border: orange 4px solid;
+}
+.int1 h2{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Sono', sans-serif;
+}
+.rev1{
+    background-image: url(/images/ap2019-charlette-jo-13a.webp);
+    background-size: cover;
+    background-position: center;
+    height:350px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+}
+.int1 p{
+    color:orange;
+    display: inline block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+}
+
+.int2{
+    background-color: #11111f;
+    height:700px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: green 4px solid;
+}
+.int2 h2{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Sono', sans-serif;
+}
+.int2 p{
+    color:green;
+    display: inline block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Sono', sans-serif;
+}
+.rev2{
+    background-image: url(/images/sammyWhatsApp\ Image\ 2023-03-10\ at\ 19.52.29.jpg);
+    background-size: cover;
+    background-position: center;
+    height:350px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.int3{
+    background-color: #11111f;
+    height:720px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 260px;
+    margin-left: 60px;
+    border: crimson 4px solid;
+}
+.int3 h2{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Sono', sans-serif;
+}
+.int3 p{
+    color:crimson;
+    display: inline block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+}
+.rev3{
+    background-image: url(/images/kelvin-doe-2-11475003398203_aspR_1.424_w970_h681_e.webp);
+    background-size: cover;
+    background-position: center;
+    height:350px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.int4{
+    background-color: #11111f;
+    height:700px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: purple 4px solid;
+}
+.int4 h2{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Sono', sans-serif;
+}
+.int4 p{
+    color:purple;
+    display: inline block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Sono', sans-serif;
+}
+.rev4{
+    background-image: url(/images/IMG_20221003_064504_634.jpg);
+    background-size: cover;
+    background-position: center;
+    height:350px;
+    width:400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.Outreach{
+    height:100vh;
+    width:auto;
+    /* background-image: url(/images/black-paper-background.webp);
+    background-position: center;
+    background-size: cover; */
+    background-color:#11111f;
+}
+.breach{
+    display: flex;
+}
+.AI h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 500px;
+    /* display: flex; */
+}
+.AI p{
+    color: orangered;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 100px;
+    font-family: 'Rampart One', cursive;
+}
+.ght{
+    display: flex;
+}
+.ght h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 350px;
+    margin-left: 200px;
+    background-color: gray;
+    height: 200px;
+    width:550px;
+    border-radius: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
+    justify-content: center;
+    transition: .7s ease-in-out;
+}
+.ght h2:hover{
+    /* border: orange solid 3px; */
+    color: orange;
+    background-color: #11111f;
+}
+
+.p1{
+    background-image: url(/images/ys.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    width:700px;
+    border-radius: 30px;
+    border:orange solid;
+    /* display: flex; */
+    margin-top: 70px;
+    margin-left: 150px; 
+}
+
+
+.yht{
+    display: flex;
+}
+.yht h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 350px;
+    margin-left: 200px;
+    background-color: gray;
+    height: 300px;
+    width:550px;
+    border-radius: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.yht h2:hover{
+    /* border: orange solid 3px; */
+    color: orange;
+    background-color: #11111f;
+}
+
+.p2{
+    background-image: url(/images/harry1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    width:700px;
+    border-radius: 30px;
+    border:orange solid;
+    /* display: flex; */
+    margin-top: 70px;
+    margin-left: 200px; 
+}
+
+.Exhibit{
+    height:100vh;
+    width:auto;
+    background-image: url(/images/abstract-geometrical-shapes-connection-digital-communication-and-technology-network-background-vector.jpg);
+    background-size: cover;
+}
+.Exhibition{
+    display: flex;
+}
+
+.exp{
+    background-image: url(/images/Pbc1vQf_1fjLYm.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-right: orange solid 10px;
+    height:1007px;
+    width:55%;
+}
+
+.box1{
+    color:white;
+    background-color: chocolate;
+    border-radius: 30px;
+    height:200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    display: flex;
+    padding-right: 30px;
+}
+.box1 h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: block;
+    font-size: 30px;
+}
+.box1 i{
+    font-size: 60px;
+    margin-left:20px;
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+}
+.box1:hover i{
+    color: dodgerblue;
+
+}
+
+.box2{
+    color:white;
+    background-color: chocolate;
+    border-radius: 30px;
+    height:200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding-right: 30px;
+}
+.box2 h1{
+    margin-left: 30px;
+    margin-top: 15px;
+    display: block;
+    font-size: 30px;
+}
+.box2 span{
+    font-size: 75px;
+    margin-left:20px;
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+}
+.box2:hover span{
+    color: dodgerblue;
+
+}
+
+
+.box3{
+    color:white;
+    background-color: chocolate;
+    border-radius: 30px;
+    height:200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    padding-right: 30px;
+}
+.box3 h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: block;
+    font-size: 30px;
+}
+.box3 span{
+    font-size: 65px;
+    margin-left:20px;
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+}
+.box3:hover span{
+    color: dodgerblue;
+}
+
+.box4{
+    color:white;
+    background-color: chocolate;
+    border-radius: 30px;
+    height:200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding-right: 30px;
+}
+.box4 h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: block;
+    font-size: 30px;
+}
+.box4 i{
+    font-size: 60px;
+    margin-left:20px;
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+}
+.box4:hover i{
+    color: dodgerblue;
+
+}
+
+
+.Footer{
+    height:40vh;
+    width:auto;
+    background-color:black;
+    border-style:double;
+    display: flex;
+}
+.end{
+    width:640px;
+    margin-top:20px;
+    border: solid 1px ;
+    border-color: crimson ;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+}
+.end h2{
+    color:white;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.end i{
+    font-size: 30px;
+    color: grey;
+    margin-left: 60px;
+    margin-top:20px ;
+}
+.end i:hover{
+    color:orange
+}
+.more{
+    display: flex;
+}
+.more i{
+    font-size: 30px;
+    color: grey;
+    margin-left: 60px;
+    margin-top:40px ;
+}
+.more i:hover{
+    color:orange
+}
+.more h2{
+    font-size: 30px;
+    color:crimson;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.mambo h2{
+    color:white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+.mambo p{
+    margin-left: 50px;
+   
+}
+.ct{
+    border: solid 1px ;
+    border-color: crimson ;
+    margin-left: 80px;
+    margin-top: 20px;
+    height:350px;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+}
+.ct h2{
+    color:white;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+.social1{
+    margin-left: 1400px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social1 i{
+    font-size: 45px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.social1 i:hover{
+    color: crimson;
+
+    margin-top: 20px;
+}
+.social2{
+    margin-left: 1500px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social2 i{
+    font-size: 45px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.social2 i:hover{
+    color: crimson;
+    margin-top: 20px;
+}
+.social3{
+    margin-left: 1600px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social3 i{
+    font-size: 45px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.social3 i:hover{
+    color: crimson;
+    margin-top: 20px;
+}
+.social4{
+    margin-left: 1700px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social4 i{
+    font-size: 45px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.social4 i:hover{
+    color: crimson;
+    margin-top: 20px;
+}
+.social5{
+    margin-left: 1800px;
+    margin-top: 160px;
+    position: absolute;
+}
+.social5 i{
+    font-size: 45px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.social5 i:hover{
+    color: crimson;
+    margin-top: 20px;
+}

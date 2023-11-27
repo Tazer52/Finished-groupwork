@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+}
+.loginpg{
+    height:115vh;
+    width:auto;
+    /* background-image: url(/images/abstract-geometrical-shapes-connection-digital-communication-and-technology-network-background-vector.jpg); */
+    background-size: cover;
+}
+.navigate{
+    height:12%;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+   
+}
+.logo{
+    background-image: url(/images/new\ 2.png);
+    background-size: cover;
+    height:100px;
+    width:500px;
+    margin-top: 15px;
+   
+}
+
+.home h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.home a{
+    text-decoration: none;
+}
+.home h2:hover{
+    color: orange;
+    display:block;
+
+}
+.details{
+    display: flex;
+    /* background-color:white; */
+    width:900px;
+}
+
+.About h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 150px;
+    transition: .5s ease-in-out; 
+}
+.About i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.About h2:hover{
+    color: orange;
+    display:block;
+    
+}
+
+.About:hover .htl{
+    display: block;
+} 
+.htl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none; 
+    z-index: 3;
+    position: relative;
+    margin-left: 100px;
+  
+}
+.htl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.htl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.htl a:hover{
+    color: orange;
+    
+}
+
+.Get{
+    margin-left: 1020px;
+    position: absolute;
+}
+.Get h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Get i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.Get h2:hover{
+    color: orange;
+    transition: .4s;
+}
+.Get:hover .gtl{
+    display: block;
+} 
+.gtl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+    z-index: 33;
+    position: relative;
+  
+}
+.gtl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color:white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.gtl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gtl a:hover{
+    color: orange;
+   
+}
+.reviews{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+}
+.reviews a{
+    text-decoration: none; 
+}
+.reviews h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.reviews h2:hover{
+    color: orange;
+
+}
+
+
+.programs{
+    margin-left: 1650px;
+    position: absolute;
+}
+.programs h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    transition: .5s ease-in-out;
+}
+.programs i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.programs h2:hover{
+    color: orange;
+
+}
+.programs:hover .prg{
+    display: block;
+} 
+.prg{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+  
+}
+.prg a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    position: relative;
+    z-index: 33;
+    transition: .5s ease-in-out;
+}
+.prg li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.prg a:hover{
+    color: orange;
+
+}
+
+.LOGIN{
+    height:1000px;
+    width:80%;
+    margin-left: 200px;
+    background-image: url(/images/img4.jpg);
+    background-size: cover; 
+}
+.LOGIN h1{
+    font-size: 100px;
+    color: orange;
+    margin-left: 600px;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    transition: .5s ease-in-out;
+}
+
+.LOGIN:Hover h1{
+    color: tomato;
+}
+
+.login input{
+    margin-top:30px;
+    margin-left: 500px;
+    padding-left: 30px;
+    height: 65px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: tomato;
+ 
+}
+
+.LOGIN p{
+    color:aliceblue;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+.LOGIN a{
+    color: tomato;
+}
+.login [type="email"]{
+    background-image: url(/images/img4.jpg);
+    color: tomato;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 635px;
+    transition: .5s ease-in-out;
+}
+
+
+.login [type="password"]{
+    background-image: url(/images/img4.jpg);
+    color: tomato;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 635px;
+    transition: .5s ease-in-out;
+}
+.login [type="button"]{
+    background-color: tomato;
+    color: #11111f;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 660px;
+    transition: .5s ease-in-out;
+}
+
+.login:hover [type="button"]{
+   color: aliceblue;
+}

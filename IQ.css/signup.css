@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Contact{
+    height:115vh;
+    width:auto;
+    background-image: url(/images/istockphoto-1371966433-170667a.jpg);
+    background-size: cover;
+}
+.navigate{
+    height:12%;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+   
+}
+.logo{
+    background-image: url(/images/new\ 2.png);
+    background-size: cover;
+    height:100px;
+    width:500px;
+    margin-top: 15px;
+   
+}
+
+.home h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.home a{
+    text-decoration: none;
+}
+.home h2:hover{
+    color: orange;
+    display:block;
+
+}
+.details{
+    display: flex;
+    /* background-color:white; */
+    width:900px;
+}
+
+.About h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 150px;
+    transition: .5s ease-in-out; 
+}
+.About i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.About h2:hover{
+    color: orange;
+    display:block;
+    
+}
+
+.About:hover .htl{
+    display: block;
+} 
+.htl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none; 
+    z-index: 3;
+    position: relative;
+    margin-left: 100px;
+  
+}
+.htl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.htl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.htl a:hover{
+    color: orange;
+    
+}
+
+.Get{
+    margin-left: 1020px;
+    position: absolute;
+}
+.Get h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Get i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.Get h2:hover{
+    color: orange;
+    transition: .4s;
+}
+.Get:hover .gtl{
+    display: block;
+} 
+.gtl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+    z-index: 33;
+    position: relative;
+  
+}
+.gtl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color:white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.gtl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gtl a:hover{
+    color: orange;
+   
+}
+.reviews{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+}
+.reviews a{
+    text-decoration: none; 
+}
+.reviews h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.reviews h2:hover{
+    color: orange;
+
+}
+
+
+/* second css */
+.CT{
+    height:1000px;
+    width:80%;
+    margin-left: 200px;
+    border: 1px solid white;
+    background-image: url(/images/img4.jpg);
+    background-size: cover; 
+}
+
+.CT h1{
+    font-size: 100px;
+    color: orange;
+    margin-left: 600px;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    transition: .5s ease-in-out;
+}
+
+.CT:Hover h1{
+    color: tomato;
+}
+
+.signup [type="text"]{
+    margin-top:25px;
+    margin-left: 500px;
+    padding-left: 30px;
+    height:80px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: tomato;
+    background-image: url(/images/img4.jpg);
+ 
+}
+.signup [type="email"]{
+    margin-top:25px;
+    margin-left: 500px;
+    padding-left: 30px;
+    height:80px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: tomato;
+    background-image: url(/images/img4.jpg);
+ 
+}
+.signup [type="password"]{
+    margin-top:25px;
+    margin-left: 500px;
+    padding-left: 30px;
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: tomato;
+    background-image: url(/images/img4.jpg);
+ 
+}
+
+.signup [type="submit"]{
+    background-color: tomato;
+    color: #11111f;
+    margin-top:25px;
+    margin-left: 500px;
+    padding-left: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 635px;
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+
+.CT p{
+    color:aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.CT a{
+    color: tomato;
+}
+
+
+.signup:hover [type="button"]{
+   color: aliceblue;
+}
